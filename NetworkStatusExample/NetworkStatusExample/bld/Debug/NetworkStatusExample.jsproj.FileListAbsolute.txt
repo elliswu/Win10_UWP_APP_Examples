@@ -1,0 +1,16 @@
+C:\Users\ellis_wu\Documents\Visual Studio 2015\Projects\NetworkStatusExample\NetworkStatusExample\bin\Debug\ReverseMap\resources.pri
+C:\Users\ellis_wu\Documents\Visual Studio 2015\Projects\NetworkStatusExample\NetworkStatusExample\bin\Debug\AppxManifest.xml
+C:\Users\ellis_wu\Documents\Visual Studio 2015\Projects\NetworkStatusExample\NetworkStatusExample\bin\Debug\NetworkStatusExample.build.appxrecipe
+C:\Users\ellis_wu\Documents\Visual Studio 2015\Projects\NetworkStatusExample\NetworkStatusExample\bld\Debug\ResourceHandlingTask.state
+C:\Users\ellis_wu\Documents\Visual Studio 2015\Projects\NetworkStatusExample\NetworkStatusExample\bld\Debug\priconfig.xml
+C:\Users\ellis_wu\Documents\Visual Studio 2015\Projects\NetworkStatusExample\NetworkStatusExample\bld\Debug\priconfig.xml.intermediate
+C:\Users\ellis_wu\Documents\Visual Studio 2015\Projects\NetworkStatusExample\NetworkStatusExample\bld\Debug\layout.resfiles
+C:\Users\ellis_wu\Documents\Visual Studio 2015\Projects\NetworkStatusExample\NetworkStatusExample\bld\Debug\layout.resfiles.intermediate
+C:\Users\ellis_wu\Documents\Visual Studio 2015\Projects\NetworkStatusExample\NetworkStatusExample\bld\Debug\resources.resfiles
+C:\Users\ellis_wu\Documents\Visual Studio 2015\Projects\NetworkStatusExample\NetworkStatusExample\bld\Debug\resources.resfiles.intermediate
+C:\Users\ellis_wu\Documents\Visual Studio 2015\Projects\NetworkStatusExample\NetworkStatusExample\bld\Debug\pri.resfiles
+C:\Users\ellis_wu\Documents\Visual Studio 2015\Projects\NetworkStatusExample\NetworkStatusExample\bld\Debug\pri.resfiles.intermediate
+C:\Users\ellis_wu\Documents\Visual Studio 2015\Projects\NetworkStatusExample\NetworkStatusExample\bld\Debug\qualifiers.txt
+C:\Users\ellis_wu\Documents\Visual Studio 2015\Projects\NetworkStatusExample\NetworkStatusExample\bld\Debug\qualifiers.txt.intermediate
+C:\Users\ellis_wu\Documents\Visual Studio 2015\Projects\NetworkStatusExample\NetworkStatusExample\bld\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\ellis_wu\Documents\Visual Studio 2015\Projects\NetworkStatusExample\NetworkStatusExample\bld\Debug\ProjectArchitectures.txt

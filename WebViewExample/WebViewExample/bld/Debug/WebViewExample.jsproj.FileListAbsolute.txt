@@ -1,0 +1,16 @@
+c:\users\ellis_wu\documents\visual studio 2015\Projects\WebViewExample\WebViewExample\bin\Debug\ReverseMap\resources.pri
+c:\users\ellis_wu\documents\visual studio 2015\Projects\WebViewExample\WebViewExample\bin\Debug\AppxManifest.xml
+c:\users\ellis_wu\documents\visual studio 2015\Projects\WebViewExample\WebViewExample\bin\Debug\WebViewExample.build.appxrecipe
+c:\users\ellis_wu\documents\visual studio 2015\Projects\WebViewExample\WebViewExample\bld\Debug\ResourceHandlingTask.state
+c:\users\ellis_wu\documents\visual studio 2015\Projects\WebViewExample\WebViewExample\bld\Debug\priconfig.xml
+c:\users\ellis_wu\documents\visual studio 2015\Projects\WebViewExample\WebViewExample\bld\Debug\priconfig.xml.intermediate
+c:\users\ellis_wu\documents\visual studio 2015\Projects\WebViewExample\WebViewExample\bld\Debug\layout.resfiles
+c:\users\ellis_wu\documents\visual studio 2015\Projects\WebViewExample\WebViewExample\bld\Debug\layout.resfiles.intermediate
+c:\users\ellis_wu\documents\visual studio 2015\Projects\WebViewExample\WebViewExample\bld\Debug\resources.resfiles
+c:\users\ellis_wu\documents\visual studio 2015\Projects\WebViewExample\WebViewExample\bld\Debug\resources.resfiles.intermediate
+c:\users\ellis_wu\documents\visual studio 2015\Projects\WebViewExample\WebViewExample\bld\Debug\pri.resfiles
+c:\users\ellis_wu\documents\visual studio 2015\Projects\WebViewExample\WebViewExample\bld\Debug\pri.resfiles.intermediate
+c:\users\ellis_wu\documents\visual studio 2015\Projects\WebViewExample\WebViewExample\bld\Debug\qualifiers.txt
+c:\users\ellis_wu\documents\visual studio 2015\Projects\WebViewExample\WebViewExample\bld\Debug\qualifiers.txt.intermediate
+c:\users\ellis_wu\documents\visual studio 2015\Projects\WebViewExample\WebViewExample\bld\Debug\MultipleQualifiersPerDimensionFound.txt
+c:\users\ellis_wu\documents\visual studio 2015\Projects\WebViewExample\WebViewExample\bld\Debug\ProjectArchitectures.txt

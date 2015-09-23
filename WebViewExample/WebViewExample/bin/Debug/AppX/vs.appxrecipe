@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>ASUS</Machine>
+    <WindowsUser>ellis_wu</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>5ec8c3de-7001-48ae-8874-cd145240171a</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\ellis_wu\Documents\Visual Studio 2015\Projects\WebViewExample\WebViewExample\bld\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>E50AAE8DE5139CB2205BE11F801D757F3CF644657C9A2C94CE6EBEF9AD0FDD7C</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>5ec8c3de-7001-48ae-8874-cd145240171a_1.0.0.0_neutral__nqqss13c1yv86</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>5ec8c3de-7001-48ae-8874-cd145240171a_nqqss13c1yv86!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>5ec8c3de-7001-48ae-8874-cd145240171a</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=ellis_wu</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\ellis_wu\Documents\Visual Studio 2015\Projects\WebViewExample\WebViewExample\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-09-22T07:47:01.720</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\ellis_wu\Documents\Visual Studio 2015\Projects\WebViewExample\WebViewExample\default.html">
+      <PackagePath>default.html</PackagePath>
+      <Modified>2015-09-22T07:47:28.004</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ellis_wu\Documents\Visual Studio 2015\Projects\WebViewExample\WebViewExample\images\LockScreenLogo.scale-200.png">
+      <PackagePath>images\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2015-08-12T11:58:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ellis_wu\Documents\Visual Studio 2015\Projects\WebViewExample\WebViewExample\images\SplashScreen.scale-200.png">
+      <PackagePath>images\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-08-12T11:58:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ellis_wu\Documents\Visual Studio 2015\Projects\WebViewExample\WebViewExample\images\Square150x150Logo.scale-200.png">
+      <PackagePath>images\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-08-12T11:58:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ellis_wu\Documents\Visual Studio 2015\Projects\WebViewExample\WebViewExample\images\Square44x44Logo.scale-200.png">
+      <PackagePath>images\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-08-12T11:58:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ellis_wu\Documents\Visual Studio 2015\Projects\WebViewExample\WebViewExample\images\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>images\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-08-12T11:58:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ellis_wu\Documents\Visual Studio 2015\Projects\WebViewExample\WebViewExample\images\StoreLogo.png">
+      <PackagePath>images\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-08-12T11:58:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ellis_wu\Documents\Visual Studio 2015\Projects\WebViewExample\WebViewExample\images\Wide310x150Logo.scale-200.png">
+      <PackagePath>images\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-08-12T11:58:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ellis_wu\Documents\Visual Studio 2015\Projects\WebViewExample\WebViewExample\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+      <Modified>2015-09-22T08:48:20.007</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ellis_wu\Documents\Visual Studio 2015\Projects\WebViewExample\WebViewExample\WinJS\js\en-US\ui.strings.js">
+      <PackagePath>WinJS\js\en-US\ui.strings.js</PackagePath>
+      <Modified>2015-08-12T11:58:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ellis_wu\Documents\Visual Studio 2015\Projects\WebViewExample\WebViewExample\WinJS\js\base.js">
+      <PackagePath>WinJS\js\base.js</PackagePath>
+      <Modified>2015-08-12T11:58:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ellis_wu\Documents\Visual Studio 2015\Projects\WebViewExample\WebViewExample\WinJS\js\ui.js">
+      <PackagePath>WinJS\js\ui.js</PackagePath>
+      <Modified>2015-08-12T11:58:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ellis_wu\Documents\Visual Studio 2015\Projects\WebViewExample\WebViewExample\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+      <Modified>2015-08-12T11:58:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ellis_wu\Documents\Visual Studio 2015\Projects\WebViewExample\WebViewExample\WinJS\css\ui-dark.css">
+      <PackagePath>WinJS\css\ui-dark.css</PackagePath>
+      <Modified>2015-08-12T11:58:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ellis_wu\Documents\Visual Studio 2015\Projects\WebViewExample\WebViewExample\WinJS\css\ui-light.css">
+      <PackagePath>WinJS\css\ui-light.css</PackagePath>
+      <Modified>2015-08-12T11:58:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ellis_wu\Documents\Visual Studio 2015\Projects\WebViewExample\WebViewExample\WinJS\fonts\Symbols.ttf">
+      <PackagePath>WinJS\fonts\Symbols.ttf</PackagePath>
+      <Modified>2015-08-12T11:58:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ellis_wu\Documents\Visual Studio 2015\Projects\WebViewExample\WebViewExample\bin\Debug\ReverseMap\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2015-09-22T07:47:01.030</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
