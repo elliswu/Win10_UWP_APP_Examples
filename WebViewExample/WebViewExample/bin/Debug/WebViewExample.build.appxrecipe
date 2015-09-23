@@ -21,6 +21,9 @@
     <AppxPackagedFile Include="C:\Users\ellis_wu\Documents\Visual Studio 2015\Projects\WebViewExample\WebViewExample\default.html">
       <PackagePath>default.html</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ellis_wu\Documents\Visual Studio 2015\Projects\WebViewExample\WebViewExample\webview.html">
+      <PackagePath>webview.html</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ellis_wu\Documents\Visual Studio 2015\Projects\WebViewExample\WebViewExample\images\LockScreenLogo.scale-200.png">
       <PackagePath>images\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>

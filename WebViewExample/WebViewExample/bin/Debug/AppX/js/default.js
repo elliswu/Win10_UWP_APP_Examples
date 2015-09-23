@@ -9,7 +9,7 @@
 	app.onactivated = function (args) {
 		if (args.detail.kind === activation.ActivationKind.launch) {
 			if (args.detail.previousExecutionState !== activation.ApplicationExecutionState.terminated) {
-				//TODO: 此應用程式已全新啟動。請在這裡初始化應用程式。
+			    //TODO: 此應用程式已全新啟動。請在這裡初始化應用程式。
 			} else {
 				// TODO: 此應用程式已被暫停並終止。
 				// 若要建立流暢的使用者體驗，請在此還原應用程式狀態，以便讓應用程式看起來像是從未停止執行一樣。
@@ -17,11 +17,42 @@
 			args.setPromise(WinJS.UI.processAll().then(function completed() {
 
 			    var webview = document.getElementById("webview");
+
+			    //MSWebViewDOM
 			    webview.addEventListener("MSWebViewDOMContentLoaded", MSWebViewDOMContentLoadedHandler);
 			    webview.addEventListener("MSWebViewContentLoading", MSWebViewContentLoadingHandler);
+			    //MSWebViewNewWindow
 			    webview.addEventListener("MSWebViewNewWindowRequested", MSWebViewNewWindowRequestedHandler);
-			}));
 
+			    //MSWebViewNavigation
+			    webview.addEventListener("MSWebViewNavigationStarting", MSWebViewNavigationStartingHandler);
+			    webview.addEventListener("MSWebViewNavigationCompleted", MSWebViewNavigationCompletedHandler);
+
+			    //MSWebViewFrame
+			    webview.addEventListener("MSWebViewFrameContentLoading", MSWebViewFrameContentLoadingHandler);
+			    webview.addEventListener("MSWebViewFrameDOMContentLoaded", MSWebViewFrameDOMContentLoadedHandler);
+			    webview.addEventListener("MSWebViewFrameNavigationStarting", MSWebViewFrameNavigationStartingHandler);
+			    webview.addEventListener("MSWebViewFrameNavigationCompleted", MSWebViewFrameNavigationCompletedHandler);
+
+
+			    var refreshBtn = document.getElementById("refresh");
+			    refreshBtn.onclick = function () {
+			        webview.refresh();
+			    };
+			    var goBackBtn = document.getElementById("goBack");
+			    goBackBtn.onclick = function () {
+			        if (webview.canGoBack) {
+			            webview.goBack();
+			        }
+			    };
+			    var goForwardBtn = document.getElementById("goForward");
+			    goForwardBtn.onclick = function () {
+			        if(webview.canGoForward){
+                        webview.goForward();
+			        }
+			        
+			    };
+			}));
 		}
 	};
 
@@ -31,17 +62,46 @@
 		//若您需要在應用程式暫停之前先完成非同步作業，請呼叫 args.setPromise()。
 	};
 
+    //MSWebViewDOM
 	function MSWebViewDOMContentLoadedHandler(eventInfo) {
         console.log("MSWebViewDOMContentLoaded");
-        console.log(JSON.stringify(eventInfo));
+
 	}
 	function MSWebViewContentLoadingHandler(eventInfo) {
 	    console.log("MSWebViewContentLoading");
-	    console.log(JSON.stringify(eventInfo));
+
 	}
+    //MSWebViewNewWindow
 	function MSWebViewNewWindowRequestedHandler(eventInfo) {
 	    console.log("MSWebViewNewWindowRequested");
-	    console.log(JSON.stringify(eventInfo));
+
 	}
+    //MSWebViewNavigation
+	function MSWebViewNavigationStartingHandler(eventInfo) {
+	    console.log("MSWebViewNavigationStarting");
+
+	}
+    function MSWebViewNavigationCompletedHandler(eventInfo) {
+	    console.log("MSWebViewNavigationCompleted");
+
+    }
+    //MSWebViewFrame
+	function MSWebViewFrameContentLoadingHandler(eventInfo) {
+	    console.log("MSWebViewFrameContentLoading");
+
+	}
+    function MSWebViewFrameDOMContentLoadedHandler(eventInfo) {
+	    console.log("MSWebViewFrameDOMContentLoaded");
+
+	}
+    function MSWebViewFrameNavigationStartingHandler(eventInfo) {
+	    console.log("MSWebViewFrameNavigationStarting");
+
+	}
+    function MSWebViewFrameNavigationCompletedHandler(eventInfo) {
+	    console.log("MSWebViewFrameNavigationCompleted");
+
+	}
+
 	app.start();
 })();
